@@ -22,20 +22,6 @@ BerlinStoreApp detects Steam installations, lists Steam accounts, and provides a
 - Python 3.9 or newer
 - `customtkinter` package
 
-## Install
-
-Open a terminal in the project folder and run:
-
-```powershell
-pip install customtkinter
-```
-
-## Run the app
-
-```powershell
-py main.py
-```
-
 ## How to use
 
 1. Start the app.
@@ -54,7 +40,6 @@ py main.py
 ## Notes
 
 - Steam path is detected via the Windows registry.
-- If the icon is not visible, make sure `download.png` exists in the same folder as `main.py`.
 - Themes are saved automatically in `theme_config.json`.
 
 ## License
